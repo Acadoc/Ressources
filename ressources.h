@@ -1,4 +1,4 @@
-/* ressources.h version 1.00 */
+/* ressources.h version 1.01 */
 
 #ifndef ressources_h
 	#define ressources_h
@@ -9,7 +9,7 @@
 	#endif
 
 	/* Set DEBUG_MODE to 1 to have debug print information */
-	#define DEBUG_MODE 1
+	#define DEBUG_MODE 0
 
 	#if DEBUG_MODE == 1
 	  #define DEBUG_PRINT(x) Serial.print(x)

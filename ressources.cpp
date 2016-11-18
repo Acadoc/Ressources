@@ -1,3 +1,5 @@
+/* ressources.cpp version 1.01 */
+
 #include "ressources.h"
 
 /****************************** variables ************************************/
@@ -8,7 +10,7 @@
 void GeneralSetup()
 {
 	#if DEBUG_MODE == 1
-		Serial.begin(115200);
+		Serial.begin(57600);
 	#endif
 	DEBUG_PRINT("end GeneralSetup\n");
 }
