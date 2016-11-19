@@ -17,8 +17,7 @@
 	  #define DEBUG_PRINT(x) 
 	#endif
 
-	#define NB_DIO 13 // Arduino UNO
-	//#define NB_DIO 53 // Arduino DUE & Arduino MEGA
+	#define NB_DIO NUM_DIGITAL_PINS 
 
 	#define TRUE HIGH
 	#define FALSE LOW
