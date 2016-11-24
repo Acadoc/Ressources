@@ -1,3 +1,3 @@
 # Ressources
 
-Home made arduino code ressources. plop
+Home made arduino code ressources.
